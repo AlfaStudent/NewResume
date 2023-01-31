@@ -4,7 +4,7 @@ import Contact from "./pages/Contact";
 import Knowledges from "./pages/Knowledges";
 import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
-import { Route, BrowserRouter, Routes} from "react-router-dom";
+import { Route, BrowserRouter} from "react-router-dom";
 import Navigation from './components/Navigation';
 import { Switch } from 'react-router-dom';
 
