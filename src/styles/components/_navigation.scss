@@ -42,10 +42,10 @@
     }
     .navigation {
       grid-area: 2;
-      padding: 2rem 1rem;
+      padding: 2rem  1rem;
   
       ul {
-        height: 100%;
+        height:  100%;
         display: grid;
       
         li {
@@ -65,8 +65,8 @@
           }
   
           i {
-            position: absolute;
             font-size: 0.95rem;
+            position: absolute;
             transform: translateY(3px);
             transition: .2s ease;
           }
@@ -125,9 +125,9 @@
     }
   }
   @media screen and (max-width: 850px){
-    .sidebar {
-      display: flex;
+    .sidebar { 
       min-height: 50px;
+      display: flex;
       margin-bottom: .2rem;
   
       .id, .socialNetwork {
@@ -151,7 +151,7 @@
   @media screen and (max-width:580px){
     .sidebar {
       ul {
-        justify-content: space-around !important;
+        justify-content: space-around  !important;
   
         li {
           padding: 1rem 0 !important;
