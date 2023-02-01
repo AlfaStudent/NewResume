@@ -16,6 +16,7 @@ const Navigation = () => {
                     <li>
                         <NavLink exact to ="/" activeClassName = "navActive">
                             <i className='fas fa-home'></i>
+                            <i class="fa-home" aria-hidden="true"></i>
                             <spam> Accueil</spam>
                         </NavLink>
                     </li>
@@ -35,7 +36,7 @@ const Navigation = () => {
                     </li>
                     <li>
                         <NavLink exact to ="/contact" activeClassName = "navActive">
-                            <i className="fa fa-adress-book"></i>
+                            <i className="fas fa-envelope"></i>
                             <spam> Contact </spam>
                         </NavLink>
                     </li>

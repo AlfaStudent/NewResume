@@ -3,7 +3,7 @@
     font-family: $font-1;
     height: 100%;
     min-height: $minHeight;
-    min-width: 264px;
+    width: 264px;
     border-radius: $borderRadius;
     position: relative;
     display: grid;
@@ -66,12 +66,13 @@
   
           i {
             font-size: 0.95rem;
-            position: absolute;
-            transform: translateY(3px);
+            position: relative;
+            transform: translateY(0px);
             transition: .2s ease;
           }
           span {
             margin-left: 2.7rem;
+            
           }
         }
       }
@@ -129,6 +130,7 @@
       min-height: 50px;
       display: flex;
       margin-bottom: .2rem;
+      width: 100%;
   
       .id, .socialNetwork {
         display: none;
