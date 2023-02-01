@@ -8,18 +8,19 @@ import { Route, BrowserRouter, Routes} from "react-router-dom";
 import Navigation from './components/Navigation';
 
 
+
 function App() {
   return (
     <div className="App">
       
-      <BrowserRouter>
-          
+      <BrowserRouter>    
           <Routes>
             <Route path = "/" element= {<Home/>}/>
             <Route path = "/competences" element= {<Knowledges/>}/>
             <Route path = "/portfolio" element= {<Portfolio/>}/>
             <Route path = "/contact" element= {<Contact/>}/>
-            <Route  element= {<NotFound/>}/>
+            <Route path = "*" element= {<NotFound/>}/>
+            
           </Routes>
       </BrowserRouter>     
     </div>
