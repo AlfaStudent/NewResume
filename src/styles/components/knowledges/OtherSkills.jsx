@@ -7,10 +7,10 @@ class OtherSkills extends Component {
                 <h3> Autres Compétences </h3>
                 <ul>
                     <li> 
-                        <i className='fas fa-check-square'> </i> Github
+                        <i className='fas fa-check-square'> </i> Méthode Agile (SCRUM)
                     </li>
                     <li> 
-                        <i className='fas fa-check-square'> </i> Methodes Agiles (SCRUM)
+                        <i className='fas fa-check-square'> </i> Github
                     </li>
                     <li> 
                         <i className='fas fa-check-square'> </i> Anglais
@@ -18,16 +18,16 @@ class OtherSkills extends Component {
                 </ul>
                 <ul>
                     <li> 
-                        <i className='fas fa-check-square'> </i> import 
+                        <i className='fas fa-check-square'> </i> Wordpress 
                     </li>
                     <li> 
-                        <i className='fas fa-check-square'> </i> Methodes Agiles (SCRUM)
+                        <i className='fas fa-check-square'> </i> PrestaShop
                     </li>
                     <li> 
                         <i className='fas fa-check-square'> </i> Anglais
                     </li>
                 </ul>
-                others
+
             </div>
         );
     }

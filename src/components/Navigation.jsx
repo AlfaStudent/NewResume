@@ -46,11 +46,11 @@ const Navigation = () => {
             <div className="socialNetwork">
                 <ul>
                     <li>
-                        <a href ="https://www.google.com" target={"_blank"} 
+                        <a href ="http://linkedin.com/in/alpha-abdoulaye-conde-703252204" target={"_blank"} 
                         rel = "noopener noreferrer"><i className='fab fa-linkedin'> </i> </a>
                     </li>
                     <li>
-                        <a href ="https://www.google.com" target={"_blank"} 
+                        <a href ="https://github.com/AlfaStudent" target={"_blank"} 
                         rel = "noopener noreferrer"><i className='fab fa-github'> </i> </a>
                     </li>
                     <li>
@@ -62,9 +62,10 @@ const Navigation = () => {
                         rel = "noopener noreferrer"><i className='fab fa-codepen'> </i> </a>
                     </li>
                 </ul>
+                <div className="signature">
+                <p> Alpha Abdoulaye CONDE </p>
             </div>
-            <div className="signature">
-                <p> Alpha - 2022 </p>
+            
             </div>
             
         </div>

@@ -8,22 +8,22 @@ const Hobbies = () => {
             <ul>
                 <li className='hobby'>
                     <i className='fas fa-running'> </i>
-                    <span> Cours a pied</span>
+                    <span> Course à pied</span>
                 </li>
                 <li className='hobby'>
-                    <i className='fas fa-running'> </i>
-                    <span> Foot</span>
+                    <i className='fas fa-basketball-ball'> </i>
+                    <span> BasketBall</span>
                 </li>
                 <li className='hobby'>
-                    <i className='fas fa-running'> </i>
-                    <span> Basket </span>
+                    <i className='fas fa-futbol'> </i>
+                    <span> Football </span>
                 </li>
                 <li className='hobby'>
-                    <i className='fas fa-running'> </i>
-                    <span> sport </span>
+                    <i className=' fas fa-music'> </i>
+                    <span> Piano </span>
                 </li>
             </ul>
-            hobbies
+           
         </div>
     );
 };
