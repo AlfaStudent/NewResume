@@ -4,7 +4,7 @@ import recommandation from "../../../media/Recommandations.pdf";
 const Experience = () => {
     return (
         <div className='experience'>
-            <h3> Experiences </h3>
+            <h3> Expériences </h3>
             <div className="exp-1">
                 <h4> Développeur python </h4>
                 <h5> 3DITEX - depuis décembre 2022</h5>
