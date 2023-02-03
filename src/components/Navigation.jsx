@@ -17,7 +17,7 @@ const Navigation = () => {
                         <NavLink exact to ="/" activeClassName = "navActive">
                             <i className='fas fa-home'></i>
                             <i class="fa-home" aria-hidden="true"></i>
-                            <spam> Accueil</spam>
+                            <spam> Accueil </spam>
                         </NavLink>
                     </li>
                     <li>
@@ -54,12 +54,12 @@ const Navigation = () => {
                         rel = "noopener noreferrer"><i className='fab fa-github'> </i> </a>
                     </li>
                     <li>
-                        <a href ="https://www.google.com" target={"_blank"} 
-                        rel = "noopener noreferrer"><i className='fab fa-twiter'> </i> </a>
+                        <a href ="https://mobile.twitter.com/Abdoula91211523" target={"_blank"} 
+                        rel = "noopener noreferrer"><i className='fab fa-twitter'> </i> </a>
                     </li>
                     <li>
-                        <a href ="https://www.google.com" target={"_blank"} 
-                        rel = "noopener noreferrer"><i className='fab fa-codepen'> </i> </a>
+                        <a href ="https://www.codingame.com/profile/3c249db925dfa6933908387e04ac14145187315" target={"_blank"} 
+                        rel = "noopener noreferrer"><i className='fas fa-code'> </i> </a>
                     </li>
                 </ul>
                 <div className="signature">

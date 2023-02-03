@@ -6,7 +6,7 @@ const Experience = () => {
         <div className='experience'>
             <h3> Experiences </h3>
             <div className="exp-1">
-                <h4> Developpeur python </h4>
+                <h4> Développeur python </h4>
                 <h5> 3DITEX - depuis décembre 2022</h5>
                 <p> Mes différentes missions consistent à développer des logiciels pour différentes machines, 
                     permettant ainsi la conception 
@@ -14,7 +14,7 @@ const Experience = () => {
                     ainsi que des interfaces graphiques pour une communication efficace avec ces machines.!</p>
             </div>
             <div className="exp-2">
-                <h4> Developpeur Web </h4>
+                <h4> Développeur Web </h4>
                 <h5>Incomm - Septembre 2022 - décembre 2022 </h5>
                 <p> Au sein de l'entreprise Incomm, j'étais en charge de la conception, de l'utilisation et de la configuration de plugins et modules,
                          ainsi que de la mise en ligne de sites web. J'ai également assuré des tâches liées au transfert de noms de domaine, à la maintenance et à la modification des sites web, 

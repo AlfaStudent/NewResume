@@ -24,7 +24,7 @@ class OtherSkills extends Component {
                         <i className='fas fa-check-square'> </i> PrestaShop
                     </li>
                     <li> 
-                        <i className='fas fa-check-square'> </i> Anglais
+                        <i className='fas fa-check-square'> </i> Reseau
                     </li>
                 </ul>
 

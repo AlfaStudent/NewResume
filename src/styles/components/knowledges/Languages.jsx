@@ -5,12 +5,12 @@ class Languages extends Component {
     state = {
         Languages: [
             {id : 1, value: "javaScript", xp: 2.5},
-            {id : 2, value: "HTML", xp: 2.6},
-            {id : 3, value: "CSS", xp: 2.5},
+            {id : 2, value: "HTML & CSS", xp: 2.6},
+            {id : 3, value: "Ocaml", xp: 2.5},
             {id : 4, value: "C", xp: 2.6},
             {id : 5, value: "PHP", xp: 1.9},
             {id : 6, value: "Python", xp: 2.0},
-            {id : 7, value: "C#", xp: 1.0},
+            {id : 7, value: "C#", xp: 1.8},
             {id : 8, value: "Swift", xp: 1.2},
         ],
         Framework: [
@@ -19,6 +19,7 @@ class Languages extends Component {
             {id : 3, value: "Sass", xp: 1.0},
             {id : 4, value: "Pyluos", xp: 1.0},
             {id : 5, value: "PyQt5", xp: 1.6},
+            
 
         ]
     }
@@ -31,11 +32,11 @@ class Languages extends Component {
                 <ProgressBar
                     languages={Languages}
                     className="languageDisplay"
-                    title= "languages"
+                    title= "langages"
                 />
                 <ProgressBar
                     languages = {Framework}
-                    title = "framework & bibliothèques"
+                    title = "frameworks & bibliothèques"
                     className = "frameworkDisplay"
                     
 
