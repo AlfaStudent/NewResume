@@ -11,7 +11,7 @@ const Experience = () => {
                 <p> Mes différentes missions consistent à développer des logiciels pour différentes machines, 
                     permettant ainsi la conception 
                     et la réalisation de tubes et de composites,
-                    ainsi que des interfaces graphiques pour une communication efficace avec ces machines.!</p>
+                    ainsi que des interfaces graphiques pour une communication efficace avec ces machines.</p>
             </div>
             <div className="exp-2">
                 <h4> Développeur Web </h4>

@@ -23,7 +23,7 @@ const Navigation = () => {
                     <li>
                         <NavLink exact to ="/competences" activeClassName = "navActive">
                                 <i className="fas fa-mountain"></i>
-                                <spam> Competence</spam>
+                                <spam> Compétences </spam>
                         </NavLink>
                     </li>
                     <li>
