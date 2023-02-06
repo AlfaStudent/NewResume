@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     name: 'Mon CV',
-    languages: ['javascript','css'],
+    languages: ['javascript','css','react'],
     languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
     source: 'https://github.com/AlfaStudent/MyResumes',
     info: "En utilisant React pour la réalisation de mon CV, j'ai pu explorer les différentes fonctionnalités de ce framework populaire pour la création d'applications web. C'était une expérience enrichissante pour moi, car c'était la première fois que je travaillais avec un langage de programmation pour la réalisation d'un projet personnel. Cette aventure m'a permis de développer mes compétences en matière de codage et de mieux comprendre comment créer des applications web interactives et attrayantes pour les utilisateurs.  ",
@@ -10,7 +10,7 @@ export const portfolioData = [
   },
   {
     id: 2,
-    name: 'Site en cours',
+    name: 'Mon nouveau CV',
     languages: ['javascript','react'],
     languagesIcons: ['fab fa-js','fab fa-react'],
     source: 'https://github.com/AlfaStudent/NewResume',
