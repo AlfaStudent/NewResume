@@ -16,8 +16,8 @@ class Languages extends Component {
         Framework: [
             {id : 1, value: "React", xp: 1.8},
             {id : 2, value: "NodeJs & Express", xp: 1.6},
+            {id : 4, value: "MongoDb & Mongoose", xp: 1.4},
             {id : 3, value: ".NET", xp: 1.2},
-            {id : 4, value: "Sass", xp: 1.1},
             {id : 5, value: "PyQt5", xp: 1.0},
             
 
