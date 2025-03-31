@@ -1,30 +1,32 @@
 import React from 'react';
-import recommandation from "../../../media/Recommandations.pdf";
 
 const Experience = () => {
     return (
         <div className='experience'>
             <h3> Expériences </h3>
             <div className="exp-1">
-                <h4> Développeur python </h4>
-                <h5> 3DITEX - depuis décembre 2022</h5>
-                <p> Mes différentes missions consistent à développer des logiciels pour différentes machines, 
+                <h4> Développeur Web </h4>
+                <h5> Sopra Steria - depuis septembre 2024</h5>
+                <p> Mes différentes missions consistent à assurer la maintenance et l'amélioration continue de l'application backend en Java 17, 
+                    en garantissant sa stabilité et ses performances. Cela inclut également la mise en place de tests unitaires et d'intégration afin d'assurer la fiabilité du code et d'optimiser les processus de développement.
+                     Par ailleurs, je participe activement à la refonte de l'interface utilisateur en Ember.js et Angular, en veillant à offrir une expérience utilisateur fluide, moderne et intuitive..</p>
+            </div>
+
+            <div className="exp-2">
+                <h4> Développeur Web </h4>
+                <h5> Solocal - Oct 2023 à Août 2024</h5>
+                <p> J'ai travaillé sur la mise en place d'une API interne pour accéder aux contenus des professionnels, avec modération et agrégation des données. 
+                    et intervenu sur l'ajout et la modification de fonctionnalités en Angular côté client et en Java (Spring Boot, MongoDB) côté serveur. 
+                    J'ai contribué aussi à l'amélioration des tests d'intégration et unitaires ainsi qu'aux montées de version techniques.</p>
+            </div>
+
+            <div className="exp-3">
+                <h4> Développeur Python </h4>
+                <h5> 3DITEX - Nov 2022 à Sept 2023</h5>
+                <p> Mes différentes missions consistaient à développer des logiciels pour différentes machines, 
                     permettant ainsi la conception 
                     et la réalisation de tubes et de composites,
                     ainsi que des interfaces graphiques pour une communication efficace avec ces machines.</p>
-            </div>
-            <div className="exp-2">
-                <h4> Développeur Web </h4>
-                <h5>Incomm - Septembre 2022 - décembre 2022 </h5>
-                <p> Au sein de l'entreprise Incomm, j'étais en charge de la conception, de l'utilisation et de la configuration de plugins et modules,
-                         ainsi que de la mise en ligne de sites web. J'ai également assuré des tâches liées au transfert de noms de domaine, à la maintenance et à la modification des sites web, 
-                         notamment les sites e-commerce et les sites vitrines, en utilisant les systèmes de gestion de contenu WordPress et Prestashop.</p>
-            </div>
-            <div className="exp-3">
-                <h4> Agent de restauration rapide </h4>
-                <h5> Burger King Petit Quevilly - Mai 2019 - Septembre 2022</h5>
-                <p> Prise et préparation de Commandes , service à table , Plonge</p>
-                <p className = "pdf"> <a href = {recommandation} target = "_blank"> Lettre de recommandation </a></p>
             </div>
         </div>
     );

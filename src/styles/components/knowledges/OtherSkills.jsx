@@ -10,7 +10,10 @@ class OtherSkills extends Component {
                         <i className='fas fa-check-square'> </i> Méthode Agile (SCRUM)
                     </li>
                     <li> 
-                        <i className='fas fa-check-square'> </i> Github
+                        <i className='fas fa-check-square'> </i> Git
+                    </li>
+                    <li> 
+                        <i className='fas fa-check-square'> </i> Docker
                     </li>
                     <li> 
                         <i className='fas fa-check-square'> </i> Anglais

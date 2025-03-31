@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Portfolio from '../../../pages/Portfolio';
 import {portfolioData} from "../../../data/portfolioData";
 import Project from './Project';

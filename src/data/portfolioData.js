@@ -29,7 +29,7 @@ export const portfolioData = [
   {
     id: 4,
     name: 'Site en cours',
-    languages: ['javascript','php','react'],
+    languages: ['javascript','nodesJs','react'],
     languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
     source: '',
     info: 'Ce Projet est en phase de conception',    
